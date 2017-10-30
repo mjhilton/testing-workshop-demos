@@ -12,6 +12,15 @@
     }
 
     function multiplyNumbers(number1, number2) {
-        return number1 ^ number2;
+        return number1 ** number2;
     }
+
+    var calculator = {
+        add: addNumbers,
+        subtract: subtractNumbers,
+        divide: divideNumbers,
+        multiply: multiplyNumbers
+    };
+
+    return calculator;
 })();
