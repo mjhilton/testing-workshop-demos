@@ -1,0 +1,11 @@
+{
+  "name": "junior-dev-refactor-testing",
+  "version": "1.0.0",
+  "description": "Practical exercises for 'JuniorDev Refactor: Testing' workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Hilton",
+  "license": "ISC"
+}
