@@ -1,4 +1,9 @@
+const assert = require('assert');
+
 function addNumbers(number1, number2) {
+    if (typeof(number1) !== 'number') throw "Argument is invalid";
+    if (typeof(number2) !== 'number') throw "Argument is invalid";
+
     return number1 + number2;
 }
 
