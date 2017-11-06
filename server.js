@@ -13,3 +13,5 @@ routes(app);
 // Start the server
 app.listen(config.port);
 console.log("App listening on port " + config.port);
+
+module.exports = app;
